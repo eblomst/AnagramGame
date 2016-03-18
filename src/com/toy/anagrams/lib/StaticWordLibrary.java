@@ -36,9 +36,9 @@ package com.toy.anagrams.lib;
  */
 final class StaticWordLibrary extends WordLibrary {
 
-    private static final String[] WORD_LIST = {"lasse", "Emma", "Mia"};
+    private static final String[] WORD_LIST = {"lasse", "Emma", "Mia", "Annoying", "Irritable"};
 
-    private static final String[] SCRAMBLED_WORD_LIST = {"eLsas", "mmEa", "iaM"
+    private static final String[] SCRAMBLED_WORD_LIST = {"eLsas", "mmEa", "iaM", "oyingAnn", "tablerritI"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
